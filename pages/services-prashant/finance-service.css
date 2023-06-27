@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* body{
+    font-family: 'Roboto', sans-serif;
+} */
+/* .services-main{
+    font-weight: 600;
+} */
+.services-heading{
+    font-size: larger;
+    /* font-weight: 600; */
+}
+.services{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 0 0 10px 10px;
+}
+#myCard:hover {
+    border: 1px solid #0731ee; /* Add your desired border style here */
+    box-shadow: 0 0 10px rgba(83, 82, 82, 0.5);
+    transform: translateY(-5px);
+    transition: transform 0.7s ease;
+}
+#myCard {
+    position: relative;
+  }
+  #myCard .arrow {
+    transition: margin-left 0.5s ease; /* Add the desired transition duration and easing here */
+  }
+  #myCard:hover .arrow {
+    margin-left: 10px; /* Add the desired left margin value here */
+  }
+  
+.card-title{
+  font-weight: 500;
+    font-size: larger;
+}  
+a{
+    text-decoration: none;
+    font-size: medium;
+}
+.card {  /* this code will maintain equal size of cards despite of the content inside them*/
+    height: 90%;
+    min-height: 200px;
+    margin: 10px;
+}
+ 
+ 
+
