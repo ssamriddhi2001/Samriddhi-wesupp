@@ -70,7 +70,7 @@ a {
   width: auto;
   height: auto;
 }
-@media (max-width: 399px) {
+@media (max-width: 450px) {
   .card-text{
     font-size: small;
   }
