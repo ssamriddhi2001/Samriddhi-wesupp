@@ -64,8 +64,8 @@ a {
 
 .logo {
   /*dimensions for logo*/
-  max-width: 20%;
-  max-height: 100px;
+  max-width: 15%;
+  max-height: 90px;
   /* Adjust the value as per your desired height */
   width: auto;
   height: auto;
