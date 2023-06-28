@@ -70,3 +70,40 @@ a {
   width: auto;
   height: auto;
 }
+@media (max-width: 399px) {
+  .card-text{
+    font-size: small;
+  }
+  .col-sm-4 {
+    width: 50%; /* Adjust the width value as needed */
+    height: 290px; 
+  }
+  .logo{
+    max-width: 40%;
+    max-height: 45px;
+    height: 80px;
+  }
+  .card-title {
+    /*Change fonts of card title*/
+    font-weight: 500;
+    font-size: medium;
+  }
+  .card-body{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    margin: 0px 10px 0 0;
+    padding: 0px;
+    margin-top: 0;
+    height: 95%;
+  }
+  a{
+    font-size: small;
+  }
+}
+@media (max-width: 900px){
+  .logo{
+    max-width: 30%;
+  }
+}
