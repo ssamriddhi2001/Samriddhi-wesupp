@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+.services-heading {
+  /*This is used to change font size*/
+  font-size: larger;
+}
+
+.services {
+  /*used flexbox in the main grid content */
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+#myCard:hover {
+  /*Hover effect in each card*/
+  border: 1px solid #0731ee;
+  box-shadow: 0 0 10px rgba(83, 82, 82, 0.5);
+  transform: translateY(-5px);
+  transition: transform 0.7s ease;
+}
+
+#myCard {
+  position: relative;
+}
+
+#myCard .arrow {
+  transition: margin-left 0.5s ease;
+  /* Add the desired transition duration and easing here */
+}
+
+#myCard:hover .arrow {
+  margin-left: 10px;
+  /* Add the desired left margin value here */
+}
+
+.card-title {
+  /*Change fonts of card title*/
+  font-weight: 500;
+  font-size: larger;
+}
+
+a {
+  /*styling all links*/
+  text-decoration: none;
+  font-size: medium;
+}
+
+.card {
+  /* this code will maintain equal size of cards despite of the content inside them*/
+  height: 90%;
+  min-height: 200px;
+  margin: 15px;
+  padding: 0px 0px 10px 10px;
+}
+
+.card-body {
+  /*Content inside card body is arranged in flexbox in column direction*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  /*dimensions for logo*/
+  max-width: 15%;
+  max-height: 90px;
+  /* Adjust the value as per your desired height */
+  width: auto;
+  height: auto;
+}
+@media (max-width: 450px) {
+  .card-text{
+    font-size: small;
+  }
+  .col-sm-4 {
+    width: 50%; /* Adjust the width value as needed */
+    height: 290px; 
+  }
+  .logo{
+    max-width: 40%;
+    max-height: 45px;
+    height: 80px;
+  }
+  .card-title {
+    /*Change fonts of card title*/
+    font-weight: 500;
+    font-size: medium;
+  }
+  .card-body{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card{
+    margin: 0px 10px 0 0;
+    padding: 0px;
+    margin-top: 0;
+    height: 95%;
+  }
+  a{
+    font-size: small;
+  }
+}
+@media (max-width: 900px){
+  .logo{
+    max-width: 30%;
+  }
+}
